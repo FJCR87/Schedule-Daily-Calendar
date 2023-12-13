@@ -1,0 +1,10 @@
+
+Schedule Daily Calendar Web App!!
+
+This weekly project is about create a Schedule Daily Calendar Planner App.
+
+For this projesct I use diferent jumbotrom from bootstrap for project because schedule time block and save icon look more better with this design of webb app. I used the moment.js jquery for run the function and display the time in the webb app.
+
+Schedule Calendar storage all event in the local storage and its sycronice with with moment.js so every time update the time. The time block is change the color in three color grey for the past event slot, red for the current event slot and green for the expect event slot on base of time of the day.
+
+Extention for project is add clear bottom to delete all the event with alert.

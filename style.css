@@ -1,0 +1,104 @@
+ 
+ body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: beige;
+  }
+
+  header {
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    border-radius: 0;
+    border-bottom: 5px solid black;
+    padding: 60px;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin-bottom: 5%;
+    padding: 10px;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    border-left: 1px solid black;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: left;
+    border-radius: 15px;
+  }
+
+  .row {
+    white-space: pre-wrap;
+    border-top: 1px solid;
+    height: 80px;
+  }
+  
+  .hour {
+    background-color: white;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color:gray;
+    color: white;
+  }
+  
+  .present {
+    background-color: red;
+    color: white;
+  }
+  
+  .future {
+    background-color: green;
+    color: white;
+  }
+  
+  .saveButton {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:rgb(46, 46, 232);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .saveButton i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+
+  .SchedulerFooter {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    position: absolute;
+    margin: 10%;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .footerli {
+    color:black;
+    font-size: 24px;
+  }
+  
